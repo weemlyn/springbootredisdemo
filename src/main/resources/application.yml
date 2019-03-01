@@ -1,0 +1,12 @@
+server:
+  port: 8088
+  tomcat:
+    min-spare-threads: 10
+    max-connections: 1000
+    uri-encoding: UTF-8
+  servlet:
+    context-path:
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 
